@@ -1,0 +1,18 @@
+{
+  "[c]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "-header-insertion=never"
+  ],
+  "cmake.configureSettings": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": true
+  },
+  "cmake.generator": "Ninja"
+}
